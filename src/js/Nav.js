@@ -1,5 +1,6 @@
 import React from 'react';
 import "../css/Nav.css";
+import logo from '../logo.svg';
 import Button from "@material-ui/core/Button";
 import { Link } from "react-router-dom";
 import DashboardIcon from '@material-ui/icons/Dashboard';
@@ -13,7 +14,8 @@ const Nav = ( {active} ) => {
     }
 
     return (
-        <div className = 'Nav__body'>    
+        <div className = 'Nav__body'>
+            <div className = 'Nav__logoWrapper'><img src={logo} className="Nav__logo" alt="logo" />B Cubed</div>
             <div className="Nav___dashboard">
                 <DashboardIcon />
                 <Button to="/dashboard" component={Link} color = {getColor("dashboard")}>Dashboard</Button>

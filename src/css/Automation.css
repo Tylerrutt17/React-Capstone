@@ -1,0 +1,13 @@
+.Automation__body {
+    position: relative;
+    left: 280px;
+    bottom: 2px;
+    display: flex;
+}
+.Automation__StockHeader {
+    display: flex;
+    justify-content: space-between;
+    background-color: grey;
+    color: black;
+    font-weight: 700;
+}

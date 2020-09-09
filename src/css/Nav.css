@@ -1,4 +1,17 @@
 .Nav__body {
-    padding: 60px;
+    padding: 0px;
+    position: absolute;
+    width: 250px;
+    left: 0px;
+    background-color: black;
+    color: white;
+}
+.Nav__logo {
+    width: 200px;
+}
+.Nav__logoWrapper {
+    display: flex;
+    text-align: center;
     align-items: center;
+    margin-bottom: 50px;
 }
