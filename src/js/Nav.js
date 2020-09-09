@@ -16,17 +16,19 @@ const Nav = ( {active} ) => {
     return (
         <div className = 'Nav__body'>
             <div className = 'Nav__logoWrapper'><img src={logo} className="Nav__logo" alt="logo" />Lobster</div>
-            <div className="Nav___dashboard">
-                <DashboardIcon />
-                <Button to="/dashboard" component={Link} color = {getColor("dashboard")}>Dashboard</Button>
-            </div>
-            <div className="Nav___automation">
-                <TuneIcon />
-                <Button to="/automation" component={Link} color = {getColor("automation")}>Automation</Button>
-            </div>
-            <div className="Nav___social">
-                <PeopleIcon />
-                <Button to="/social" component={Link} color = {getColor("social")}>Social</Button>
+            <div className="fixed-nav">
+                <div className="Nav___dashboard">
+                    <DashboardIcon />
+                    <Button to="/dashboard" component={Link} color = {getColor("dashboard")}>Dashboard</Button>
+                </div>
+                <div className="Nav___automation">
+                    <TuneIcon />
+                    <Button to="/automation" component={Link} color = {getColor("automation")}>Automation</Button>
+                </div>
+                <div className="Nav___social">
+                    <PeopleIcon />
+                    <Button to="/social" component={Link} color = {getColor("social")}>Social</Button>
+                </div>
             </div>
         </div>
     )

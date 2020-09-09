@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Nav from './js/Nav'
 import Header from './js/Header'
 import Automation from './js/Automation'
+import Dashboard from './js/Dashboard';
 
 function App() {
 // class App extends React.Component { 
@@ -37,6 +38,7 @@ function App() {
           <Route path="/dashboard">
             <Header />
             <Nav active = 'dashboard'/>
+            <Dashboard name="rashad"/>
           </Route>
           <Route path="/automation">
             <Header />
