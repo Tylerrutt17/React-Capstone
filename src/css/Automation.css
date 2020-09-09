@@ -48,5 +48,18 @@
 .Automation__strategy {
     text-align: left;
 }
+.Automation__StockFooter {
+    text-align: right;
+    height: 100px;
+}
+.Automation_summary {
+    /* color: green;
+    text-decoration: green;
+    text-decoration-color: green; */
+}
+.Automation_save {
+    width: 200px;
+    height: 50px;
+}
 /* .Automation__settings {
 } */

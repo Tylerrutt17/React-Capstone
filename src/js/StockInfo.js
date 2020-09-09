@@ -22,10 +22,10 @@ const StockInfo= ({asset, allocation, portfolioID}) => {
                 onChangeCommitted={handleChange} // for example fetching new data
                 /> */}
                 <Slider 
-                    
+
                     defaultValue={allocation}
                     // max = {100 - getPortfolioInfo()[portfolioID].percent_allocated + allocation}
-                    // onChange={}
+                    // onChange={(e, val) => }
                     // onChangeComplete={}
                 >
                 </Slider>

@@ -64,6 +64,12 @@ const Automation = () => {
                         // logic to render messages differently depending on sender
                         <StockInfo asset = {stock.name} allocation = {stock.allocation} portfolioID = {stock.portfolio_id} />
                     ))}
+                    <div className = 'Automation__StockFooter'>
+                        <div className='Automation_summary'>{getPortfolioInfo()[0].percent_allocated}% Allocated</div>
+                        <Button className='Automation_save' to="" component={Link} variant="contained" color="default"
+                            >Save
+                        </Button>
+                    </div>
                 </div>
             </div>
         </div>
