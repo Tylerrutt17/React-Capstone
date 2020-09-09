@@ -42,6 +42,10 @@ function Social() {
                     <LeaderCell name={"Elon Tusk"} followers={15} pc={'99.31'}/>
                     <LeaderCell name={"XEA-something"} followers={20} pc={'-7.73'}/>
                     <LeaderCell name={"Elon"} followers={25} pc={'2.31'}/>
+                    <LeaderCell name={"Elon"} followers={25} pc={'2.31'}/>
+                    <LeaderCell name={"Elon"} followers={25} pc={'2.31'}/>
+                    <LeaderCell name={"Elon"} followers={25} pc={'2.31'}/>
+                    <LeaderCell name={"Elon"} followers={25} pc={'2.31'}/>
                 </div>
             </div>
             <div className={'attributes-container'}>
@@ -55,6 +59,10 @@ function Social() {
                 </div>
             </div>
             <div className={'Social-Chart-Container'}>
+                <SocialChartCell name={'Elon Musk'} dayP={'69.42'} weekP={'-1.65'} monthP={'87.97'} followers={'21'} stock={'AAPL'} datapoints={datapoints} />
+                <SocialChartCell name={'Elon Musk'} dayP={'69.42'} weekP={'-1.65'} monthP={'87.97'} followers={'21'} stock={'AAPL'} datapoints={datapoints} />
+                <SocialChartCell name={'Elon Musk'} dayP={'69.42'} weekP={'-1.65'} monthP={'87.97'} followers={'21'} stock={'AAPL'} datapoints={datapoints} />
+                <SocialChartCell name={'Elon Musk'} dayP={'69.42'} weekP={'-1.65'} monthP={'87.97'} followers={'21'} stock={'AAPL'} datapoints={datapoints} />
                 <SocialChartCell name={'Elon Musk'} dayP={'69.42'} weekP={'-1.65'} monthP={'87.97'} followers={'21'} stock={'AAPL'} datapoints={datapoints} />
                 <SocialChartCell name={'Elon Musk'} dayP={'69.42'} weekP={'-1.65'} monthP={'87.97'} followers={'21'} stock={'AAPL'} datapoints={datapoints} />
                 <SocialChartCell name={'Elon Musk'} dayP={'69.42'} weekP={'-1.65'} monthP={'87.97'} followers={'21'} stock={'AAPL'} datapoints={datapoints} />
