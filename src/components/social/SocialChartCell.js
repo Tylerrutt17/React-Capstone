@@ -13,11 +13,11 @@ function SocialChartCell({dayP, weekP, monthP, followers, name, stock, datapoint
             <h6>Performance</h6>
             <div className={'performance'}>
                 <h5 className={'performance-item'}>1D:</h5>
-                <h5 style={dayP>0 ? {color: 'green'} : {color: 'red'}}>{dayP}%</h5>
+                <h5 style={dayP>0 ? {color: '#57D900'} : {color: 'red'}}>{dayP}%</h5>
                 <h5 className={'performance-item'}>1W:</h5>
-                <h5 style={weekP>0 ? {color: 'green'} : {color: 'red'}}>{weekP}%</h5>
+                <h5 style={weekP>0 ? {color: '#57D900'} : {color: 'red'}}>{weekP}%</h5>
                 <h5 className={'performance-item'}>1M:</h5>
-                <h5 style={monthP>0 ? {color: 'green'} : {color: 'red'}}>{monthP}%</h5>
+                <h5 style={monthP>0 ? {color: '#57D900'} : {color: 'red'}}>{monthP}%</h5>
             </div>
             <div>
                 <Chart
