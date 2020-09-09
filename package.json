@@ -10,6 +10,7 @@
     "@testing-library/user-event": "^7.2.1",
     "icons": "^1.0.0",
     "material-ui": "^0.20.2",
+    "material-ui-slider": "^3.0.8",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",

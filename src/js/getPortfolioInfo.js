@@ -8,4 +8,4 @@ const getPortfolioInfo = () => {
     return rv
 }
 
-export { getPortfolioInfo}
+export default getPortfolioInfo
