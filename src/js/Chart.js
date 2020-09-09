@@ -17,13 +17,7 @@ function Chart() {
     
     chartPrices = chartData.prices
     setchartPrices(chartPrices)
-    // chartData.prices.map((instArr) => {
-    //   dateArr.push(new Date(instArr[0]));
-    //   setdateArr(dateArr)
-    //   priceArr.push(instArr[1].toFixed(2))
-    //   setpriceArr(priceArr)
-    // });
-    // console.log(coinID)
+    
   }
   useEffect(() => {
     getInfo()
@@ -38,7 +32,7 @@ function Chart() {
     chart: {
       type: "area",
       stacked: false,
-      height: 350,
+    //   height: 500,
       background: '#000ffffff',
       zoom: {
         type: "x",
@@ -109,7 +103,8 @@ function Chart() {
         options={options}
         series={series}
         type="area"
-        // height="100%"
+        height="100%"
+        
       />
     
   );

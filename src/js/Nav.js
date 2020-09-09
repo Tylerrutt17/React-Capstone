@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 import DashboardIcon from '@material-ui/icons/Dashboard';
 import TuneIcon from '@material-ui/icons/Tune';
 import PeopleIcon from '@material-ui/icons/People';
+import NoteIcon from '@material-ui/icons/Note';
 
 const Nav = ( {active} ) => {
 
@@ -28,6 +29,10 @@ const Nav = ( {active} ) => {
                 <div className="Nav___social">
                     <PeopleIcon />
                     <Button to="/social" component={Link} color = {getColor("social")}>Social</Button>
+                </div>
+                <div className="Nav__portfolio">
+                    <NoteIcon />
+                    <Button to="/portfolio" component={Link} color = {getColor("portfolio")}>Portfolios</Button>
                 </div>
             </div>
         </div>

@@ -6,32 +6,32 @@ import Donut from './Donut'
 
 
 function Dashboard(props) {
+    
 
     return (
         <div className="body dashboard_bod">
             <h1>Welcome {props.name}</h1>
             <div className ="dash-change">
                 <div id = 'floatbox top-dash'>
-                    <h6>Change since Yeesterday</h6>
+                    <h4>Change since Yeesterday</h4>
                     <p className= "floatchange">27.3%</p>
                 </div>
                 <div id = 'floatbox top-dash'>
-                    <h6>Lobster Total</h6>
+                    <h4>Lobster Total</h4>
                     <p className= "floatchange">$12,453.76</p>
                 </div>
                 <div id = 'floatbox top-dash'>
-                    <h6>Change in Dollars</h6>
+                    <h4>Change in Dollars</h4>
                     <p className= "floatchange">$586.54</p>
                 </div>
             </div>
             <div className="chart-flex">
-                <div className="chart">
+                <div className="dashboard-chart chart">
                     <Chart />
                 </div>
-                
-            </div>
-            <div className= "donut-flex">
-                <Donut/>
+                <div className="donut-flex chart">
+                    <Donut />
+                </div>
             </div>
         </div>
     );

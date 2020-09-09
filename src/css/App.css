@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+ 
+}
+html{
+  background-image: radial-gradient( circle farthest-corner at -4% -12.9%,  rgba(74,98,110,1) 0.3%, rgba(30,33,48,1) 90.2% );
+  color: white;
 }
 
 .App-logo {
@@ -39,10 +44,17 @@
 .dashboard_bod{
   margin-left: 21%;
 }
+.portfolio_bod{
+  margin-left: 21%;
+}
+.chart{
+  width: 60%;
+}
+
 
 .chart {
  
-  height: 30%;
+  /* height: 30%; */
 }
 
 .dash-change{
@@ -55,4 +67,12 @@
   position: fixed;
   width: 250px;
   text-align: right;
+}
+.chart-flex{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.dash-change{
+  margin-bottom: 25px;
 }

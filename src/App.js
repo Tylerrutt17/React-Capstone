@@ -5,6 +5,7 @@ import Nav from './js/Nav'
 import Header from './js/Header'
 import Automation from './js/Automation'
 import Dashboard from './js/Dashboard';
+import Portfolio from './js/Portfolio';
 
 function App() {
 // class App extends React.Component { 
@@ -24,7 +25,7 @@ function App() {
   useEffect(() => {
     fetchMessage()
   }, [])
-
+  
   return (
       <div className="App">
         <Router>
@@ -39,6 +40,11 @@ function App() {
             <Header />
             <Nav active = 'dashboard'/>
             <Dashboard name="rashad"/>
+          </Route>
+          <Route path="/portfolio">
+            <Header />
+            <Nav active = 'portfolio'/>
+            <Portfolio name="Test Portfolio"/>
           </Route>
           <Route path="/automation">
             <Header />

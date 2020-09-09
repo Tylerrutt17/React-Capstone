@@ -1,5 +1,6 @@
 import React from 'react';
 import "../css/Header.css";
+import '../css/App.css';
 import logo from '../logo.svg';
 import ChatIcon from '@material-ui/icons/Chat';
 import NotificationsActiveIcon from '@material-ui/icons/NotificationsActive';
@@ -23,7 +24,7 @@ function Header() {
             <IconButton>
                 <PaymentIcon className = "header__icon"/>
             </IconButton>
-            <img src={logo} className="header__logo" alt="logo" />
+            <img src={logo} className="header__logo App-logo" alt="logo" />
         </div>
     )
 }
