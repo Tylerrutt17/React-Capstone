@@ -1,0 +1,19 @@
+.dropdown {
+    background-color: white;
+    color: black;
+    height: 50px;
+    width: 40%;
+    margin-left: 8%;
+    padding: 10px;
+    float: left;
+    min-width: 200px;
+    margin-bottom: 5px;
+    
+    border: 1px solid lightgray;
+    border-radius: 2px;
+    
+}
+
+.dropdown:hover {
+    border: 2px solid black;
+}

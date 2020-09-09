@@ -1,0 +1,19 @@
+.button {
+    background-color: dodgerblue; /* Green */
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    height: 50px;
+    width: 40%;
+    min-width: 200px;
+    font-size: 16px;
+    margin-left: 8%;
+    border: 3px black;
+    border-radius: 4px;
+    float: left;
+}
+
+.button:hover {
+    background-color: rgb(51, 151, 250);
+}

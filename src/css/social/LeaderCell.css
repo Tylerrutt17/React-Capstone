@@ -1,0 +1,38 @@
+.cell {
+    background-color: green;
+    margin-left: 2px;
+    width: 200px;
+    position: relative;
+    text-align: center;
+    vertical-align: center;
+    flex-shrink: 0;
+    color: white;
+}
+
+/* Bottom left text */
+.followers {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 14px;
+}
+
+.name {
+    position: absolute;
+    bottom: 25px;
+    left: 16px;
+    font-size: 20px;
+}
+
+.percentage {
+    position: absolute;
+    bottom: 8px;
+    right: 5px;
+    color: red;
+    font-size: 12px;
+}
+
+.image {
+    height: 100%;
+    width: 100%;
+}
