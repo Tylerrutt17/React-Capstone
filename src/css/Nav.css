@@ -1,0 +1,20 @@
+.Nav__body {
+    padding: 0px;
+    position: absolute;
+    width: 250px;
+    left: 0px;
+    top: 0px;
+    background-color: darkgray;
+    color: white;
+    min-height: 100vh;
+}
+.Nav__logo {
+    width: 100px;
+}
+.Nav__logoWrapper {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 150px;
+
+}
