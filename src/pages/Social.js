@@ -39,9 +39,9 @@ function Social() {
                 <h3 className={'leaders-title-lbl sansserif'}>Our Featured Leaders</h3>
                 <div className={'leaders-view'}>
                     <LeaderCell name={"Elon Musk"} followers={10} pc={'2.31'}/>
-                    <LeaderCell name={"Elon Tusk"} followers={10} pc={'99.31'}/>
-                    <LeaderCell name={"XEA-something"} followers={10} pc={'-7.73'}/>
-                    <LeaderCell name={"Elon"} followers={10} pc={'2.31'}/>
+                    <LeaderCell name={"Elon Tusk"} followers={15} pc={'99.31'}/>
+                    <LeaderCell name={"XEA-something"} followers={20} pc={'-7.73'}/>
+                    <LeaderCell name={"Elon"} followers={25} pc={'2.31'}/>
                 </div>
             </div>
             <div className={'attributes-container'}>
