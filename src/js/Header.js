@@ -24,7 +24,6 @@ function Header() {
             <IconButton>
                 <PaymentIcon className = "header__icon"/>
             </IconButton>
-            <img src={logo} className="header__logo App-logo" alt="logo" />
         </div>
     )
 }

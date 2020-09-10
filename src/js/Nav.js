@@ -28,7 +28,7 @@ const Nav = ( {active} ) => {
                 </div>
                 <div className="Nav___social">
                     <PeopleIcon />
-                    <Button to="/social" component={Link} color = {getColor("social")}>Social</Button>
+                    <Button to="/social" component={Link} >Social</Button>
                 </div>
                 <div className="Nav__portfolio">
                     <NoteIcon />

@@ -20,7 +20,7 @@ function Donut(props) {
             breakpoint: 480,
         }]
     }
-    return (<ReactApexChart options={options} series={series.data} type="donut" width="400px" />)
+    return (<ReactApexChart options={options} series={series.data} type="donut" width="100%" height="100%" />)
 }
 
 export default Donut;

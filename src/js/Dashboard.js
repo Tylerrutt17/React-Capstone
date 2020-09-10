@@ -1,5 +1,5 @@
 import React from 'react';
-import Chart from './Chart';
+import LineChart from './LineChart';
 import '../css/App.css'
 import Donut from './Donut'
 
@@ -26,8 +26,8 @@ function Dashboard(props) {
                 </div>
             </div>
             <div className="chart-flex">
-                <div className="dashboard-chart chart">
-                    <Chart />
+                <div className="dahboard-chart chat">
+                    <LineChart />
                 </div>
                 <div className="donut-flex chart">
                     <Donut />

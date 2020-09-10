@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-image: radial-gradient( circle farthest-corner at -4% -12.9%,  rgba(74,98,110,1) 0.3%, rgba(30,33,48,1) 90.2% );
+
  
 }
 html{
@@ -47,32 +49,25 @@ html{
 .portfolio_bod{
   margin-left: 21%;
 }
-.chart{
-  width: 60%;
-}
 
-
-.chart {
- 
-  /* height: 30%; */
-}
 
 .dash-change{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  margin-bottom: 25px;
 }
 
 .fixed-nav{
   position: fixed;
   width: 250px;
   text-align: right;
+  color: white;
 }
-.chart-flex{
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-}
-.dash-change{
-  margin-bottom: 25px;
+.chat{
+  min-height: 350px;
+  height: 500px;
+  width: 80%;
+  margin-right: 7%;
+  float: right;
 }

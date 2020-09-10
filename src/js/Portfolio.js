@@ -24,12 +24,12 @@ function Portfolio(props) {
                     <p className="floatchange">$586.54</p>
                 </div>
             </div>
-            <div className="chart-flex">
+            <div className="port-flex">
                 <div className="portfolio-chart">
                     <LineChart />
                 </div>
                 <div className="donut-flex">
-                    <Donut />
+                    <Donut height ="200px"/>
                 </div>
             </div>
 
