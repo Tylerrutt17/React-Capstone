@@ -1,68 +1,47 @@
-import React, { useEffect, useState } from 'react'
-import './css/App.css';
+import React, { Children } from "react";
+import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Nav from './js/Nav'
-import Header from './js/Header'
-import Automation from './js/Automation'
-import Dashboard from './js/Dashboard';
-import Portfolio from './js/Portfolio';
+import Login from './components/Login';
+import Automation from "./components/Automation";
+import Dashboard from "./components/Dashboard";
+import Portfolio from "./components/Portfolio";
+import Taskbar from "./components/Taskbar";
 
 function App() {
-// class App extends React.Component { 
-
-  // Prepare state hook for welcome message
-  const [welcomeMessage, setWelcomeMessage] = useState('')
-
-  // Create async function for fetching welcome message
-  const fetchMessage = async () => {
-    // Use Fetch API to fetch '/api' endpoint
-    const message = await fetch('/api')
-      .then(res => res.text()) // process incoming data
-    // Update welcomeMessage state
-    setWelcomeMessage(message)
-  }
-  // Use useEffect to call fetchMessage() on initial render and only then
-  useEffect(() => {
-    fetchMessage()
-  }, [])
-  
+  const testImg = [
+    {
+      img:
+        "https://fontmeme.com/temporary/ccc238be3e209150225e4efdc810d920.png",
+    },
+  ];
   return (
-      <div className="App">
-        <Router>
-        {/* {Header} */}
-          <Switch>
+      <Router>
+        {/* {} */}
+        <Switch>
           <Route path="/login">
-            {/* Display welcome message */}
             {/* <p>{welcomeMessage}</p> */}
-            {/* <Login /> */}
+            <Login />
           </Route>
           <Route path="/dashboard">
-            <Header />
-            <Nav active = 'dashboard'/>
-            <Dashboard name="rashad"/>
+            
+            <Dashboard name="rashad" />
           </Route>
-          <Route path="/portfolio">
-            <Header />
-            <Nav active = 'portfolio'/>
-            <Portfolio name="Test Portfolio"/>
+          <Route path="/portfolio"> 
+            <Portfolio  />
           </Route>
           <Route path="/automation">
-            <Header />
-            <Nav active = 'automation'/>
+            <Taskbar  />
             <Automation />
           </Route>
           <Route path="/social">
-            <Header />
-            <Nav active = 'social'/>
+            <Taskbar />
           </Route>
           {/* default route needs to go at bottom of switch */}
-          <Route path="/"> 
-            <Header />
+          <Route path="/">
           </Route>
         </Switch>
       </Router>
-    </div>
-    );
+  );
 }
 
 export default App;
